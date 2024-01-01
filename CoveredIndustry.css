@@ -1,0 +1,37 @@
+.simple-effect {
+ padding: 1em .4em;
+ display: block;
+ font-size: 1.8em;
+ font-family: 'Lexend', sans-serif;
+
+ }
+.simple-effect span {
+color: #1e92ea;
+}
+.grayscale-effect img{
+ transition: all .4s linear;
+ -webkit-transition: all .4s linear;
+ -moz-transition: all .4s linear;
+ -o-transition: all .4s linear;
+}
+.image-wrapper{
+margin-bottom: 35px;
+}
+.effect-image-1{
+position: relative;
+display: block; }
+.grayscale-effect img{
+  filter: grayscale(100%);
+ -webkit-filter: grayscale(100%);
+ }
+ .grayscale-effect:hover img{
+  filter: grayscale(0);
+ -webkit-filter: grayscale(0);
+}
+    @media (max-width: 767px){
+ .effect-image-1{
+ margin:30px 0px;
+    }
+    }
+
+    

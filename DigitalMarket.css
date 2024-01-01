@@ -1,0 +1,13 @@
+.digital_fold {
+    background: transparent url("../images/magemoz_digitalmarket.png") 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;  
+    position: relative;
+    z-index: 10;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+
+   } 

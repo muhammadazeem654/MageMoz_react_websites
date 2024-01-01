@@ -1,0 +1,362 @@
+
+
+body {
+    color: #151515;
+    font-size: 0.9375rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+@media only screen and (max-width: 575.98px) {
+    body {
+        font-size: 1rem;
+        font-family: 'Lexend', sans-serif;
+
+    }
+}
+::-moz-selection {
+    background: #080b1a;
+    color: #fff;
+    text-shadow: none;
+    font-family: 'Lexend', sans-serif;
+
+}
+::selection {
+    background: #080b1a;
+    color: #fff;
+    text-shadow: none;
+    font-family: 'Lexend', sans-serif;
+
+}
+a {
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    outline: 0;
+    text-decoration: none !important;
+    font-family: 'Lexend', sans-serif;
+
+}
+a:active,
+a:focus,
+a:hover {
+    color: inherit;
+    outline: 0;
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+
+}
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: 0;
+    font-family: 'Lexend', sans-serif;
+
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #151515;
+    line-height: 1.2;
+    font-family: 'Lexend', sans-serif;
+
+}
+.h1,
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-family: 'Lexend', sans-serif;
+
+}
+@media (max-width: 1200px) {
+    .h1,
+    h1 {
+        font-size: calc(1.375rem + 1.5vw);
+        font-family: 'Lexend', sans-serif;
+
+    }
+}
+.h2,
+h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: -5px;
+    margin-bottom: 18px;
+    font-family: 'Lexend', sans-serif;
+
+}
+@media (max-width: 1200px) {
+    .h2,
+    h2 {
+        font-size: calc(1.35rem + 1.2vw);
+        font-family: 'Lexend', sans-serif;
+
+    }
+}
+.h3,
+h3 {
+    font-size: 1.875rem;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+
+}
+@media (max-width: 1200px) {
+    .h3,
+    h3 {
+        font-size: calc(1.3125rem + 0.75vw);
+        font-family: 'Lexend', sans-serif;
+
+    }
+}
+.h4,
+h4 {
+    font-size: 1.5rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+@media (max-width: 1200px) {
+    .h4,
+    h4 {
+        font-size: calc(1.275rem + 0.3vw);
+        font-family: 'Lexend', sans-serif;
+
+    }
+}
+.h5,
+h5 {
+    font-size: 1.25rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+.h6,
+h6 {
+    font-size: 1rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+p {
+    margin-bottom: 15px;
+    font-family: 'Lexend', sans-serif;
+
+}
+p:last-child {
+    margin-bottom: 0;
+    font-family: 'Lexend', sans-serif;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+
+}
+ul li {
+    list-style: none;
+    font-family: 'Lexend', sans-serif;
+
+}
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+.page-title-heading, .inner-title-heading {
+    padding-bottom: 5rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+/*--- header ---*/
+.navbar .navbar-brand>img {
+    max-width: 200px;
+    font-family: 'Lexend', sans-serif;
+
+}
+.navbar .navbar-nav>li.nav-item:not(:last-child) {
+    margin-right: 60px;
+    font-family: 'Lexend', sans-serif;
+
+}
+.navbar .navbar-nav>li.nav-item>a.nav-link {
+    color: #000;
+    font-weight: 500;
+
+}
+/*--- home banner ---*/
+.home-banner {
+    background: url("../images/magemozwebMainbanner.png") no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    z-index: 1;
+    font-family: 'Lexend', sans-serif;
+
+}
+.home-banner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    font-family: 'Lexend', sans-serif;
+
+}
+.home-banner .banner-caption>h1 {
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+
+}
+/*--- work process ---*/
+.process-icon-box {
+    margin: 0 auto;
+    background: #f2f2f2;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+
+}
+.process-icon-box>h6 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'Lexend', sans-serif;
+
+}
+.process-icon-box:before {
+    content: '';
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid #000;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-family: 'Lexend', sans-serif;
+
+}
+.process-icon-box .process-icon {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    background: #000;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+    z-index: 1;
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+
+}
+.process-icon-box::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    right: -80px;
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+
+}
+/*--- Client Logo ---*/
+.client-logo-cover img {
+    width: 100%;
+    max-width: 180px;
+}
+.client-logo-cover img + img {
+    margin-top: 100px;
+}
+/*--- Industrie List ---*/
+.industrie-lists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+
+}
+.industrie-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Lexend', sans-serif;
+    
+
+}
+
+.industrie-item-image {
+    margin-bottom: 1rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+.industrie-item-image>img {
+    max-width: 200px;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.industrie-lists>li {
+    
+    font-family: 'Lexend', sans-serif;
+
+}
+.heading{
+    margin-top: -50px;
+}
+
+
+
+/*--- Footer ---*/
+footer {padding: 10px 0;}
+
+.footer-container {
+    border-top: 1px solid #000;
+    padding-top: 20px;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.footer-nav, .social-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav>li, .social-icon>li {
+    margin-right: 30px;
+}
+
+.social-icon {
+    justify-content: flex-end;
+}
+
+.footer-nav>li>a, .social-icon>li>a {
+    color: #000;
+}

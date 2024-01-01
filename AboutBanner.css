@@ -1,0 +1,119 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+
+    
+.about-firstfold .fold-group-image {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    font-family: 'Lexend', sans-serif;
+}
+.fold-group-image  .image-second {
+    position: absolute;
+    bottom: -30px;
+    border-radius: 100%;
+    width: 100%;
+    border: 5px solid #fff;
+    left: -120px;
+    max-width: 300px;
+    font-family: 'Lexend', sans-serif;
+}
+.fold-content {
+    width: 100%;
+    max-width: 400px;
+    font-family: 'Lexend', sans-serif;
+    
+    
+}
+
+}
+}
+}
+}
+}
+.about-secondfold {
+    background: url("../images/magemozportfoliobanner.png") no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    max-height: 100%;
+    width: 100%;
+    font-family: 'Lexend', sans-serif;
+}
+.icon-box {
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+}
+
+.icon-box  {
+    font-size: 60px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.icon-box  h5 {
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-family: 'Lexend', sans-serif;
+}
+.inner-title-heading *, .about-secondfold .icon-box *  {
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+.about-thirdfold {
+    background: url("../images/magemozwebOurvisionbanner.png") no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding-top: 10rem;                                           
+    padding-bottom: 10rem;
+    position: relative;
+    font-family: 'Lexend', sans-serif;
+}
+.contact-form input.form-control, .contact-form textarea.form-control {
+    border-radius: 0;
+    padding: 12px;
+    font-family: 'Lexend', sans-serif;
+}
+.contact-form input.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: inherit;
+    font-family: 'Lexend', sans-serif;
+}
+.contact-form input.form-control, .contact-form textarea.form-control {
+    border-radius: 0;
+    padding: 12px;
+    font-family: 'Lexend', sans-serif;
+}
+.contact-form input.form-control:focus, 
+.contact-form textarea.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: inherit;
+    font-family: 'Lexend', sans-serif;
+}
+.contact-form .submit-btn {
+    background: #000;
+    border-radius: 0;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 35%;
+    font-family: 'Lexend', sans-serif;
+    
+}
+
+

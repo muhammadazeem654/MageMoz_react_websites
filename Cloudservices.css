@@ -1,0 +1,68 @@
+.cloud_fold {
+    background: transparent url("../images/magemoz_cloudservices.png") 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: #fff;  
+    font-family: 'Lexend', sans-serif;
+
+   } 
+
+.Cloud-content h1{
+    color: #fff !important;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.container .center-circle{
+position: relative;
+width: 300px;
+height: 300px;
+margin: 0 auto;
+background: var(--white) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 8px 8px 20px #00000021;
+border-radius: 100%;
+opacity: 1;
+font-family: 'Lexend', sans-serif;
+
+}
+
+
+.image-container {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Lexend', sans-serif;
+
+}
+  
+.image {
+position: absolute;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+font-family: 'Lexend', sans-serif;
+
+}
+  
+.image:nth-child(1) {
+top: calc(50% - 75px);
+left: calc(50% - 25px);
+}
+  
+.image:nth-child(2) {
+top: calc(50% - 25px);
+left: calc(50% + 25px);
+}
+.image:nth-child(3) {
+top: calc(50% + 25px);
+left: calc(50% + 75px);
+}
+  
+.image:nth-child(4) {
+top: calc(50% + 75px);
+left: calc(50% - 25px);
+}
